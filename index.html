@@ -26,8 +26,10 @@
                         <li class="nav-item px-2 px-lg-5">
                         <a class="nav-link text-white-50" href="#">Amet</a>
                         </li>
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link text-white-50" href="#">Opciones</a>
+                        <li class="nav-item d-lg-none px-2 px-lg-5">
+                            <a class="text-white-50 text-decoration-none" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Opciones
+                            </a>
                         </li>
                     </div>
                     <li class="nav-item p-1 order-first order-lg-last">
@@ -38,7 +40,16 @@
                 </ul>
             </nav>
         </div>
-        </header>
+    </header>
+    <div class="collapse d-lg-none w-100" id="collapseExample">
+        <div class="card card-body w-75 mx-auto">
+            <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 1</button>
+            <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 2</button>
+            <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 3</button>
+            <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 4</button>
+        </div>
+    </div>
+    </div>
         <main class="w-100 d-flex flex-column justify-content-center align-items-center">
             <section class="w-100 m-2 mt-5 d-flex justify-content-center align-items-center flex-column">   
                 <h1>Lorem ipsum...</h1>
@@ -71,37 +82,31 @@
                     <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 3</button>
                     <button type="button" class="btn btn-outline-secondary p-3 text-decoration-underline text-black text-start">Opción 4</button>
                 </article>
-                <article class="container m-2">
-                    <div class="row-md mb-2">
-                        <p class="col-md bg-light">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ipsum, natus placeat saepe quisquam voluptatem blanditiis iusto labore distinctio magni explicabo nihil necessitatibus dolorem quasi officiis autem aliquid commodi id!
-                        </p>
-                        <p class="col-md bg-light">
-                            Impedit maxime labore veniam, eum ullam modi numquam esse deleniti recusandae harum, delectus id eos quam dolorem! Iusto facere asperiores odio alias.
-                        </p>
-                        <p class="row-md col-md bg-light">
-                            Quia illum molestias maiores molestiae, accusantium temporibus unde fugit corporis saepe quidem odio, earum nam! Quis eaque eligendi deleniti fugiat ex eveniet.
-                        </p>
-                    </div>
-                    <div class="row-md mb-2">
-                        <p class="col-md bg-light">
-                            Modi in impedit ex nihil, dolorum dolorem nam harum expedita omnis perferendis similique praesentium voluptas minima sed, tenetur maiores eveniet velit nesciunt.
-                        </p>
-                        <p class="col-md bg-light">
-                            Expedita, rerum, dolor quaerat ad nisi nam dolorem voluptates saepe recusandae eos vero placeat in quod voluptatem eveniet nulla officia, asperiores accusantium.
-                        </p>
-                        <p class="col-md bg-light">
-                            Ab culpa repellendus fugiat possimus delectus, tempora voluptatum debitis obcaecati voluptas beatae minima? Enim totam nesciunt iste vero perspiciatis consectetur voluptas repellendus.
-                        </p>
-                    </div>
-                    <div class="row-md">
-                        <p class="col-md-4 bg-light">
-                            Nostrum nulla perferendis est odit qui reprehenderit ipsam corrupti amet ab quidem quas asperiores itaque, rem culpa ut dolorum fuga. Nobis, necessitatibus.
-                        </p>
-                        <p class="col-md-4 bg-light">
-                            Et, aliquid cum, amet expedita sunt laudantium facilis quas harum optio similique velit nemo delectus! Et, soluta minus deleniti illum provident repellat.
-                        </p>
-                    </div>
+                <article class="row row-cols-1 row-cols-md-2 row-cols-lg-3 w-75 m-2 mx-auto">
+                    <p class="bg-light">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro ipsum, natus placeat saepe quisquam voluptatem blanditiis iusto labore distinctio magni explicabo nihil necessitatibus dolorem quasi officiis autem aliquid commodi id!
+                    </p>
+                    <p class="bg-light">
+                        Impedit maxime labore veniam, eum ullam modi numquam esse deleniti recusandae harum, delectus id eos quam dolorem! Iusto facere asperiores odio alias.
+                    </p>
+                    <p class="bg-light">
+                        Quia illum molestias maiores molestiae, accusantium temporibus unde fugit corporis saepe quidem odio, earum nam! Quis eaque eligendi deleniti fugiat ex eveniet.
+                    </p>
+                    <p class="bg-light">
+                    Modi in impedit ex nihil, dolorum dolorem nam harum expedita omnis perferendis similique praesentium voluptas minima sed, tenetur maiores eveniet velit nesciunt.
+                    </p>
+                    <p class="bg-light">
+                        Expedita, rerum, dolor quaerat ad nisi nam dolorem voluptates saepe recusandae eos vero placeat in quod voluptatem eveniet nulla officia, asperiores accusantium.
+                    </p>
+                    <p class="bg-light">
+                        Ab culpa repellendus fugiat possimus delectus, tempora voluptatum debitis obcaecati voluptas beatae minima? Enim totam nesciunt iste vero perspiciatis consectetur voluptas repellendus.
+                    </p>
+                    <p class="bg-light">
+                        Nostrum nulla perferendis est odit qui reprehenderit ipsam corrupti amet ab quidem quas asperiores itaque, rem culpa ut dolorum fuga. Nobis, necessitatibus.
+                    </p>
+                    <p class="bg-light">
+                        Et, aliquid cum, amet expedita sunt laudantium facilis quas harum optio similique velit nemo delectus! Et, soluta minus deleniti illum provident repellat.
+                    </p>
                 </article>
             </section>
         </main>
